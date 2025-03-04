@@ -1,2 +1,3 @@
+String userName = props.getProperty("db.user");
 ResultSet rs = ps.executeQuery();
 hello world
