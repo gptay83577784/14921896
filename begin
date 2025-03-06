@@ -1,3 +1,4 @@
+} finally {
 Properties props = new Properties();
 props.load(fs);
 String userName = props.getProperty("db.user");
