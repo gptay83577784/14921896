@@ -1,3 +1,4 @@
+public class OracleJdbcTest
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
 Class.forName(driverClass);
 out.close();
